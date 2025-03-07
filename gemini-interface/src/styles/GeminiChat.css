@@ -1,0 +1,71 @@
+/* GeminiChat.css */
+.gemini-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6; /* bg-gray-100 */
+    padding: 2rem; /* py-8 */
+  }
+  
+  .gemini-card {
+    max-width: 42rem; /* max-w-2xl */
+    width: 100%;
+    background-color: white;
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
+    padding: 1.5rem; /* p-6 */
+  }
+  
+  .gemini-input {
+    width: 100%;
+    padding: 0.75rem; /* p-3 */
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    outline: none;
+  }
+  
+  .gemini-input:focus {
+    border-color: #3b82f6; /* focus:ring-blue-500 */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* focus:ring-2 */
+  }
+  
+  .gemini-button {
+    width: 100%;
+    background-color: #3b82f6; /* bg-blue-500 */
+    color: white;
+    padding: 0.75rem; /* p-3 */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: background-color 0.2s;
+  }
+  
+  .gemini-button:hover {
+    background-color: #2563eb; /* hover:bg-blue-600 */
+  }
+  
+  .gemini-textarea {
+    width: 100%;
+    padding: 0.75rem; /* p-3 */
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    background-color: #f9fafb; /* bg-gray-50 */
+    outline: none;
+    resize: vertical;
+  }
+  
+  .gemini-textarea:focus {
+    border-color: #3b82f6; /* focus:ring-blue-500 */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* focus:ring-2 */
+  }
+  
+  .gemini-label {
+    display: block;
+    font-size: 1.125rem; /* text-lg */
+    font-weight: 500; /* font-medium */
+    color: #000000; /* text-gray-700 */
+    margin-bottom: 0.5rem; /* space-y-4 */
+  }
+  
+  .gemini-range {
+    width: 100%;
+  }
